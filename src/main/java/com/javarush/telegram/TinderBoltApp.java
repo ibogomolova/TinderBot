@@ -1,15 +1,9 @@
 package com.javarush.telegram;
 
-import com.javarush.telegram.ChatGPTService;
-import com.javarush.telegram.DialogMode;
-import com.javarush.telegram.MultiSessionTelegramBot;
-import com.javarush.telegram.UserInfo;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
-import org.telegram.telegrambots.meta.api.objects.*;
+import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
-
-import java.util.ArrayList;
 
 public class TinderBoltApp extends MultiSessionTelegramBot {
     public static final String TELEGRAM_BOT_NAME = "chat_gpt_and_connection_aibot";
